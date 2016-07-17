@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+		<title>Home</title>
+	</head>
+	<body data-lift-content-id="main">
+		<div id="main" data-lift="surround?with=default;at=content">
+			<div data-lift="helloWorld.render">
+				<h2>Here's some data for you</h2>
+				<table class="table table-striped">
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+					</tr>
+					<tr class="details">
+						<td class="name"></td>
+						<td class="email"></td>
+					</tr>
+				</table>
+			</div>
+			
+			<div data-lift="helloWorld.renderWithError">
+				<h2>And there could be more data here...</h2>
+				<table class="table table-striped">
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+					</tr>
+					<tr class="details">
+						<td class="name"></td>
+						<td class="email"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
+
